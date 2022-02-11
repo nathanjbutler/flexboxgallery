@@ -1,3 +1,19 @@
+/* Generic Decoration */
+section, footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p a{
+    text-decoration: none;
+    color: #950a0a;
+    font-size: larger;
+    font-weight: bold;
+}
+h1{
+    font-size: xx-large;
+}
 /*Gallery*/
 .gallery{
     list-style: none;
